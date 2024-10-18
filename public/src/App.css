@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: gainsboro;
+  height: 2rem;
+  border-radius: 1rem;
+  margin-right: 1.5rem;
+  font-size: larger;
+}
+
+.header input {
+  border-radius: 0.5rem;
+
+}
+
+.header button {
+  width: 4rem;
+  border-radius: 0.5rem;
+  background-color: lightgreen;
+}
+
+.itemDiv {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+
+}
+
+.deleteIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+}
+
+.itemDiv button {
+  border: none;
+  height: 1.5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 1rem;
+}
